@@ -250,10 +250,8 @@ section.shade { background: var(--paper-2); }
 /* autoplay refused (iOS Low Power): swap the untappable player for the still */
 .hero-media.noplay video { display: none; }
 .hero-media.noplay { background: var(--dk) url("media/hero-poster.jpg") center / cover no-repeat; }
-.hero-media::before {
-  content: ""; position: absolute; inset: 0; z-index: 1;
-  background: rgba(8, 9, 10, 0.3);
-}
+/* Flat 30% scrim removed: the ::after gradient alone carries headline
+   contrast, and the extra flat layer only muddied the video. */
 .hero-media::after {
   content: ""; position: absolute; inset: 0; z-index: 2;
   background: linear-gradient(to top, rgba(6,7,8,0.88) 0%, rgba(6,7,8,0.32) 46%, rgba(6,7,8,0.42) 100%);

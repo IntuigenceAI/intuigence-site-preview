@@ -240,7 +240,6 @@
 
   <div class="tbl-scroll"><table>
     <tbody>
-      <tr><td><strong>Workload Name</strong></td><td>IntuigenceAI.IndustrialWorkers.Product</td></tr>
       <tr><td><strong>Company Name</strong></td><td>IntuigenceAI</td></tr>
       <tr><td><strong>Company Website</strong></td><td><a href="https://www.intuigence.ai/" target="_blank">https://www.intuigence.ai/</a></td></tr>
       <tr><td><strong>Address</strong></td><td>24564 Hawthorne Blvd Ste 205, Torrance CA 90505</td></tr>
@@ -268,8 +267,13 @@
   <div class="tbl-scroll"><table>
     <tbody>
       <tr><td><strong>Workload Name</strong></td><td>IntuigenceAI Industrial Workers</td></tr>
-      <tr><td><strong>Workload Version</strong></td><td>1.0.0</td></tr>
-      <tr><td><strong>Release Date</strong></td><td>March 19, 2026</td></tr>
+      <tr><td><strong>Workload Identifier</strong></td><td><code>IntuigenceAI.IndustrialWorkers</code></td></tr>
+      <tr><td><strong>Manifest Product Name</strong></td><td><code>IntuigenceAI.IndustrialWorkers.Product</code></td></tr>
+      <tr><td><strong>Workload Version</strong></td><td>2.0.0</td></tr>
+      <tr><td><strong>Release Date</strong></td><td>September 15, 2026</td></tr>
+      <tr><td><strong>Publishing Stage</strong></td><td>General Availability</td></tr>
+      <tr><td><strong>Marketplace Offer</strong></td><td><a href="https://marketplace.microsoft.com/en-us/product/intuigenceai.intuigenceai-industrial-workers" target="_blank">IntuigenceAI Industrial Workers</a></td></tr>
+      <tr><td><strong>Previous Stage</strong></td><td>Public Preview (validated March 19, 2026)</td></tr>
     </tbody>
   </table></div>
 
@@ -306,10 +310,10 @@
     <div class="req-title">3. Monetization</div>
     <div class="req-desc">The workload is available on the marketplace for the customer to procure with or without a trial in accordance with the monetization guidelines.</div>
     <ul class="checks">
-      <li class="unchecked"><span class="cb">[ ]</span> Yes</li>
-      <li class="checked"><span class="cb">[x]</span> No</li>
+      <li class="checked"><span class="cb">[x]</span> Yes</li>
+      <li class="unchecked"><span class="cb">[ ]</span> No</li>
     </ul>
-    <div class="note">The workload is not currently listed on the marketplace. Monetization is based on direct enterprise contracts with IntuigenceAI. Billing is handled outside of Fabric.</div>
+    <div class="note">The workload is listed on Microsoft Marketplace as <a href="https://marketplace.microsoft.com/en-us/product/intuigenceai.intuigenceai-industrial-workers" target="_blank">IntuigenceAI Industrial Workers</a>. Procurement and commercial terms are governed by that offer. Metered billing is not transacted in-product; customers are onboarded via the Marketplace listing and enterprise agreements with IntuigenceAI.</div>
   </div>
 
   <hr>
@@ -461,17 +465,17 @@
       <li class="unchecked"><span class="cb">[ ]</span> Free / Freemium</li>
       <li class="checked"><span class="cb">[x]</span> Other</li>
     </ul>
-    <div class="note">Monetization is based on direct enterprise contracts with IntuigenceAI (no in‑product purchase or marketplace offer yet). Billing is handled outside of Fabric.</div>
+    <div class="note">The workload is listed on Microsoft Marketplace as <a href="https://marketplace.microsoft.com/en-us/product/intuigenceai.intuigenceai-industrial-workers" target="_blank">IntuigenceAI Industrial Workers</a>. Procurement runs through that listing; there is no in-product purchase flow, and billing is handled outside of Fabric under enterprise agreements with IntuigenceAI.</div>
   </div>
 
   <div class="req">
     <div class="req-title">6. Accessibility</div>
     <div class="req-desc">The user experience is in compliance with the Fabric UX design guidelines for Accessibility.</div>
     <ul class="checks">
-      <li class="unchecked"><span class="cb">[ ]</span> The user experience is completely compliant with the guidelines</li>
-      <li class="checked"><span class="cb">[x]</span> The following limitations exist</li>
+      <li class="checked"><span class="cb">[x]</span> The user experience is completely compliant with the guidelines</li>
+      <li class="unchecked"><span class="cb">[ ]</span> The following limitations exist</li>
     </ul>
-    <div class="note">The workload follows general accessibility best practices (semantic HTML, basic keyboard navigation), but a full review against Fabric Accessibility guidelines is not yet complete. Known limitations may include incomplete screen reader labels and partial keyboard focus management in some custom panels.</div>
+    <div class="note">IntuigenceAI has completed a full accessibility review of the workload and all item types against the Fabric UX System accessibility guidelines. The review was completed successfully and the findings raised during it have been remediated. The workload is built on Fluent UI v9 and the Fabric UX component library, which provide the baseline keyboard interaction, focus management and screen reader semantics; IntuigenceAI's own custom panels were reviewed and corrected against the same guidelines, covering semantic structure, screen reader labelling, keyboard navigation and focus order, and color contrast. Accessibility is re-reviewed as part of the release process for material UX changes.</div>
   </div>
 
   <div class="req">
@@ -562,7 +566,7 @@
       <li class="checked"><span class="cb">[x]</span> Publisher attests that it is not using or relying on third-party cookies as part of their solution</li>
       <li class="checked"><span class="cb">[x]</span> Publisher attests to obtaining any Microsoft Entra token using the JavaScript APIs provided by the Fabric Workload Client SDK</li>
     </ul>
-    <div class="note">IntuigenceAI performs privacy reviews as part of its secure SDLC and SOC 2 Type I compliance program. Privacy impact is assessed during design and before release of material changes. Customer data handling is governed by the <a href="https://intuigence.ai/privacy" target="_blank">IntuigenceAI Privacy Policy</a> and Data Processing Agreement, including limitations on data retention, access, and use. For the Microsoft Fabric workload, IntuigenceAI relies on identity provided by Microsoft Entra and does not persist the user's name, email address, or phone number within the workload.</div>
+    <div class="note">IntuigenceAI performs privacy reviews as part of its secure SDLC and SOC 2 Type I compliance program. Privacy impact is assessed during design and before release of material changes. Customer data handling is governed by the <a href="https://www.intuigence.ai/privacy-policy" target="_blank">IntuigenceAI Privacy Policy</a> and Data Processing Agreement, including limitations on data retention, access, and use. For the Microsoft Fabric workload, IntuigenceAI relies on identity provided by Microsoft Entra and does not persist the user's name, email address, or phone number within the workload.</div>
   </div>
 
   <div class="req">
@@ -570,7 +574,7 @@
     <div class="req-body">
       <p>Microsoft Fabric is making an Enterprise Promise around data not leaving the geography of the tenant for stored data and data in transit. As a workload in Fabric, customers need to be aware of your commitments to Data Residency.</p>
     </div>
-    <div class="note">IntuigenceAI stores and processes customer content data in IntuigenceAI‑managed Azure resources in the us‑west2 region and, where configured, in the customer's own Fabric tenant environment. Customer content may therefore leave the tenant's geography depending on the customer's region and configuration. Operational telemetry and logs may be processed in additional regions but do not include customer content. For details, see <a href="https://intuigence.ai/privacy" target="_blank">https://intuigence.ai/privacy</a>.</div>
+    <div class="note">IntuigenceAI stores and processes customer content data in IntuigenceAI‑managed Azure resources in the us‑west2 region and, where configured, in the customer's own Fabric tenant environment. Customer content may therefore leave the tenant's geography depending on the customer's region and configuration. Operational telemetry and logs may be processed in additional regions but do not include customer content. For details, see <a href="https://www.intuigence.ai/privacy-policy" target="_blank">https://www.intuigence.ai/privacy-policy</a>.</div>
   </div>
 
   <div class="req">
@@ -593,15 +597,26 @@
   <!-- SUPPORT -->
   <h2>Support</h2>
 
+  <p>Full support parameters for this workload &mdash; severity definitions, response commitments, coverage hours, escalation path, availability target and maintenance policy &mdash; are published at <a href="https://www.intuigence.ai/fabric-workload/support" target="_blank">https://www.intuigence.ai/fabric-workload/support</a>. That page is linked from the workload help link in the product manifest and from the Azure Marketplace offer, and is publicly accessible without authentication.</p>
+
   <div class="req">
     <div class="req-title">1. Live Site</div>
     <div class="req-desc">Partner workloads are an integral part of Fabric that require the Microsoft support teams to be aware of how to contact you in case customers are reaching out directly.</div>
+    <ul class="checks">
+      <li class="checked"><span class="cb">[x]</span> Vendor has provided a monitored livesite contact to Microsoft for customer escalations received directly by Microsoft support</li>
+      <li class="checked"><span class="cb">[x]</span> The livesite alias is monitored 24&times;7&times;365 and is backed by an on-call rotation</li>
+    </ul>
     <p style="margin-bottom:8px;font-size:15px;">Microsoft direct vendor outreach:</p>
     <div class="tbl-scroll"><table>
       <tbody>
-        <tr><td><strong>Contact Name / Team</strong></td><td>IntuigenceAI Security &amp; Engineering Team</td></tr>
-        <tr><td><strong>Email alias</strong></td><td><a href="mailto:security@intuigence.ai">security@intuigence.ai</a></td></tr>
-        <tr><td><strong>Self Service portal</strong></td><td><a href="https://intuigence.ai/" target="_blank">https://intuigence.ai/</a></td></tr>
+        <tr><td><strong>Livesite alias (Microsoft &rarr; IntuigenceAI)</strong></td><td><a href="mailto:platform@intuigence.ai">platform@intuigence.ai</a></td></tr>
+        <tr><td><strong>Coverage</strong></td><td>24&times;7&times;365, on-call rotation, 1-hour response for Severity 1</td></tr>
+        <tr><td><strong>Contact Name / Team</strong></td><td>IntuigenceAI Engineering On-Call &mdash; Fabric Workload</td></tr>
+        <tr><td><strong>Escalation owner</strong></td><td>Abdurrahman Balsus, Security &amp; Compliance &mdash; <a href="mailto:Abdurrahman.Balsus@Intuigence.ai">Abdurrahman.Balsus@Intuigence.ai</a></td></tr>
+        <tr><td><strong>Telephone</strong></td><td>+1 310-498-3217</td></tr>
+        <tr><td><strong>Customer support alias</strong></td><td><a href="mailto:support@intuigence.ai">support@intuigence.ai</a></td></tr>
+        <tr><td><strong>Security reports</strong></td><td><a href="mailto:security@intuigence.ai">security@intuigence.ai</a></td></tr>
+        <tr><td><strong>Self Service portal</strong></td><td><a href="https://www.intuigence.ai/fabric-workload/support" target="_blank">https://www.intuigence.ai/fabric-workload/support</a></td></tr>
       </tbody>
     </table></div>
   </div>
@@ -610,15 +625,56 @@
     <div class="req-title">2. Supportability</div>
     <div class="req-desc">Vendors are responsible for defining and documenting their support parameters (SLA, contact methods, etc.). This information needs to be linked from the Workload page and should always be accessible to customers.</div>
     <ul class="checks">
-      <li class="unchecked"><span class="cb">[ ]</span> Vendor attests that support information is published to the marketplace offering and available to users/customers directly via the workload</li>
+      <li class="checked"><span class="cb">[x]</span> Vendor attests that support information is published to the marketplace offering and available to users/customers directly via the workload</li>
+      <li class="checked"><span class="cb">[x]</span> A documented service level agreement with severity definitions and initial response targets is publicly published</li>
+      <li class="checked"><span class="cb">[x]</span> Support contact methods are published and reachable without authentication</li>
+      <li class="checked"><span class="cb">[x]</span> An escalation path is documented and available to customers</li>
     </ul>
-    <div class="note">Support information is available via <a href="https://intuigence.ai" target="_blank">https://intuigence.ai</a> and directly within the workload's help/support links. It will be added to the Marketplace listing once published.</div>
+
+    <p style="margin-bottom:8px;font-size:15px;">Initial response commitments (time to acknowledgement by a named engineer, not resolution):</p>
+    <div class="tbl-scroll"><table>
+      <thead>
+        <tr><th style="width:90px;">Severity</th><th>Definition</th><th style="width:130px;">Initial response</th><th style="width:110px;">Coverage</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Severity 1</strong></td><td>Workload unavailable or unusable for all users in a tenant, or confirmed/suspected data loss or exposure. No workaround.</td><td><strong>1 hour</strong></td><td>24&times;7&times;365</td></tr>
+        <tr><td><strong>Severity 2</strong></td><td>Major capability degraded or unavailable with no practical workaround.</td><td><strong>4 business hours</strong></td><td>Business hours</td></tr>
+        <tr><td><strong>Severity 3</strong></td><td>Capability partially impaired; a documented workaround exists.</td><td><strong>1 business day</strong></td><td>Business hours</td></tr>
+        <tr><td><strong>Severity 4</strong></td><td>Questions, documentation clarifications, cosmetic issues, feature requests.</td><td><strong>2 business days</strong></td><td>Business hours</td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="tbl-scroll"><table>
+      <tbody>
+        <tr><td style="width:220px;"><strong>Business hours</strong></td><td>Monday to Friday, 09:00&ndash;18:00 US Pacific Time, excluding US public holidays. Severity 1 is answered outside these hours by the 24&times;7 on-call rotation.</td></tr>
+        <tr><td><strong>Support language</strong></td><td>English</td></tr>
+        <tr><td><strong>Escalation</strong></td><td>Customer-initiated at any time (ESCALATE on the case thread) &rarr; on-call support lead &rarr; engineering leadership. Documented on the published support page.</td></tr>
+        <tr><td><strong>Published at</strong></td><td><a href="https://www.intuigence.ai/fabric-workload/support" target="_blank">https://www.intuigence.ai/fabric-workload/support</a></td></tr>
+        <tr><td><strong>Marketplace offer</strong></td><td><a href="https://marketplace.microsoft.com/en-us/product/intuigenceai.intuigenceai-industrial-workers" target="_blank">IntuigenceAI Industrial Workers</a></td></tr>
+      </tbody>
+    </table></div>
+    <div class="note">Support parameters are published on the IntuigenceAI support page, referenced from the <code>supportLink.help</code> entry in the workload product manifest so they are reachable from the workload page inside Fabric, and mirrored in the Azure Marketplace offer listing.</div>
   </div>
 
   <div class="req">
     <div class="req-title">3. Service Health and Availability</div>
     <div class="req-desc">Vendors need to host a service health dashboard that shows their service health and availability to customers.</div>
-    <div class="note">IntuigenceAI does not yet expose a public service health dashboard for this workload. Internal monitoring and alerting are in place, and service incidents are communicated to affected customers via support channels. A public service health and availability page is planned and will be linked here once available.</div>
+    <ul class="checks">
+      <li class="checked"><span class="cb">[x]</span> A published availability target is stated and measured per calendar month</li>
+      <li class="checked"><span class="cb">[x]</span> Continuous monitoring and alerting is operated across all serving regions</li>
+      <li class="checked"><span class="cb">[x]</span> Incident communication and post-incident review processes are documented and customer-accessible</li>
+    </ul>
+    <div class="tbl-scroll"><table>
+      <tbody>
+        <tr><td style="width:220px;"><strong>Availability target</strong></td><td>99.9% monthly, measured per calendar month, excluding announced scheduled maintenance windows. Applies to IntuigenceAI-operated services only; Microsoft Fabric, OneLake and Microsoft Entra ID availability is governed by Microsoft's own SLAs.</td></tr>
+        <tr><td><strong>Monitoring</strong></td><td>24&times;7 monitoring and alerting of availability, error rate, ingestion throughput and response latency, per serving region, with automated paging to the on-call engineer.</td></tr>
+        <tr><td><strong>Incident communication</strong></td><td>Affected tenant administrators and open case contacts are notified by email, with updates every 4 hours for Severity 1 until resolution.</td></tr>
+        <tr><td><strong>Post-incident review</strong></td><td>Available on request for any Severity 1 incident, within 5 business days of resolution.</td></tr>
+        <tr><td><strong>Scheduled maintenance</strong></td><td>Standard window Saturdays 02:00&ndash;06:00 US Pacific Time, announced at least 5 business days in advance where service is interrupted. Emergency security maintenance may fall outside this window, with notification within 24 hours.</td></tr>
+        <tr><td><strong>Service health information</strong></td><td><a href="https://www.intuigence.ai/fabric-workload/support#health" target="_blank">https://www.intuigence.ai/fabric-workload/support#health</a></td></tr>
+      </tbody>
+    </table></div>
+    <div class="note">Service health, availability commitments and incident-communication practice are published on the IntuigenceAI support page. Customers may request a current service health summary at any time from <a href="mailto:support@intuigence.ai">support@intuigence.ai</a>. Fabric platform incidents are published separately by Microsoft at <a href="https://support.fabric.microsoft.com/" target="_blank">support.fabric.microsoft.com</a>.</div>
   </div>
 
   <hr>
@@ -698,16 +754,21 @@
   <h3>References</h3>
   <ul class="plain">
     <li><a href="https://www.intuigence.ai/" target="_blank">Company Website: https://www.intuigence.ai/</a></li>
-    <li><a href="https://intuigence.ai/privacy" target="_blank">Privacy Policy: https://intuigence.ai/privacy</a></li>
-    <li>Support Portal: <a href="https://intuigence.ai/" target="_blank">https://intuigence.ai/</a></li>
+    <li>Marketplace Listing: <a href="https://marketplace.microsoft.com/en-us/product/intuigenceai.intuigenceai-industrial-workers" target="_blank">IntuigenceAI Industrial Workers on Microsoft Marketplace</a></li>
+    <li>Product Documentation: <a href="https://www.intuigence.ai/fabric-workload/intuigence-ai-documentation" target="_blank">https://www.intuigence.ai/fabric-workload/intuigence-ai-documentation</a></li>
+    <li>Support &amp; Service Level Agreement: <a href="https://www.intuigence.ai/fabric-workload/support" target="_blank">https://www.intuigence.ai/fabric-workload/support</a></li>
+    <li>Service Health &amp; Availability: <a href="https://www.intuigence.ai/fabric-workload/support#health" target="_blank">https://www.intuigence.ai/fabric-workload/support#health</a></li>
+    <li><a href="https://www.intuigence.ai/privacy-policy" target="_blank">Privacy Policy: https://www.intuigence.ai/privacy-policy</a></li>
+    <li><a href="https://www.intuigence.ai/website-terms" target="_blank">Terms of Use: https://www.intuigence.ai/website-terms</a></li>
+    <li>Customer Support: <a href="mailto:support@intuigence.ai">support@intuigence.ai</a></li>
     <li>Security Contact: <a href="mailto:security@intuigence.ai">security@intuigence.ai</a></li>
+    <li>Microsoft Livesite Escalation: <a href="mailto:platform@intuigence.ai">platform@intuigence.ai</a></li>
     <li>Compliance Contact: <a href="mailto:Abdurrahman.Balsus@Intuigence.ai">Abdurrahman.Balsus@Intuigence.ai</a></li>
-    <li>Service Health Dashboard: Planned — link to be added upon availability</li>
-    <li>Marketplace Listing: Planned — link to be added upon publication</li>
   </ul>
 
   <p style="margin-top:28px;font-size:14px;color:#666;">
-    <strong>Document Version:</strong> 1.0.0 &nbsp;|&nbsp; <strong>Release Date:</strong> March 19, 2026
+    <strong>Document Version:</strong> 2.0.0 &nbsp;|&nbsp; <strong>Release Date:</strong> September 15, 2026 &nbsp;|&nbsp; <strong>Publishing Stage:</strong> General Availability<br>
+    <strong>Supersedes:</strong> Version 1.0.0 (March 19, 2026), submitted for the Public Preview publishing stage.
   </p>
 
 </div>

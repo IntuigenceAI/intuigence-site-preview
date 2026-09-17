@@ -228,6 +228,7 @@
       <h4>Reference</h4>
       <a href="#faq">FAQ</a>
       <a href="#compatibility">Compatibility</a>
+      <a href="#support">Support &amp; SLA</a>
     </div>
   </aside>
 
@@ -260,7 +261,7 @@
     </div>
 
     <div class="info-box">
-      <strong>Preview Notice:</strong> This workload is currently in preview. Features and UI may change. Contact your admin to configure the workload for your organization.
+      <strong>Before you start:</strong> This workload must be enabled by a Fabric administrator for your organization. If you cannot see it, contact your admin to configure it for your tenant.
     </div>
 
     <!-- Getting Started -->
@@ -272,7 +273,7 @@
         <div class="step-num">1</div>
         <div class="step-body">
           <h4>Open the Workloads page</h4>
-          <p>In the left sidebar, click <strong>Workloads</strong>. Locate <em>IntuigenceAI (preview)</em> and click <strong>Learn more</strong>.</p>
+          <p>In the left sidebar, click <strong>Workloads</strong>. Locate <em>IntuigenceAI Industrial Workers</em> and click <strong>Learn more</strong>.</p>
         </div>
       </div>
       <div class="step">
@@ -659,8 +660,46 @@
       <li><div class="num">?</div><div class="body"><strong>Why do I see "Contact your admin to configure this workload"?</strong><p>The workload must be explicitly enabled by a Fabric administrator in your organization's Admin settings.</p></div></li>
       <li><div class="num">?</div><div class="body"><strong>How long does indexing take?</strong><p>Small documents index within seconds. Large P&amp;ID PDFs or multi-sheet files may show <span class="status-badge inprog">In progress</span> for several minutes. Refresh the Data Catalog to check the latest status.</p></div></li>
       <li><div class="num">?</div><div class="body"><strong>Can I upload image-format P&amp;IDs?</strong><p>Yes. <code>.png</code>, <code>.jpg</code>, and <code>.pdf</code> are all supported for P&amp;ID files.</p></div></li>
-      <li><div class="num">?</div><div class="body"><strong>What does "preview" mean?</strong><p>The workload is functional but subject to change before general availability. It is covered by IntuigenceAI's <a href="https://www.intuigence.ai/website-terms">preview terms of use</a>.</p></div></li>
+      <li><div class="num">?</div><div class="body"><strong>How do I get support, and what are the response times?</strong><p>Email <a href="mailto:support@intuigence.ai">support@intuigence.ai</a>. Severity 1 issues (workload unavailable) are answered within 1 hour, 24&times;7. Full severity definitions, response targets, escalation path and availability commitments are published on the <a href="https://www.intuigence.ai/fabric-workload/support">IntuigenceAI support and SLA page</a>.</p></div></li>
     </ul>
+    <!-- Support -->
+    <p class="heading-2" id="support">Support</p>
+    <p>Support for this workload is provided directly by IntuigenceAI. You do not need to open a Microsoft support case for issues originating in the IntuigenceAI Industrial Workers workload.</p>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="icon">&#128231;</div>
+        <h4>Customer support</h4>
+        <p>Product questions, defects and configuration help, all severity levels.<br/><a href="mailto:support@intuigence.ai">support@intuigence.ai</a></p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">&#128272;</div>
+        <h4>Security reports</h4>
+        <p>Suspected vulnerabilities and responsible disclosure.<br/><a href="mailto:security@intuigence.ai">security@intuigence.ai</a></p>
+      </div>
+    </div>
+
+    <p class="heading-3">Response commitments</p>
+    <ul class="detail-list">
+      <li><div class="num">1</div><div class="body"><strong>Severity 1 &mdash; 1 hour, 24&times;7&times;365</strong><p>Workload unavailable or unusable for all users in a tenant, or confirmed/suspected data loss. Answered around the clock by the on-call rotation.</p></div></li>
+      <li><div class="num">2</div><div class="body"><strong>Severity 2 &mdash; 4 business hours</strong><p>A major capability is degraded or unavailable with no practical workaround.</p></div></li>
+      <li><div class="num">3</div><div class="body"><strong>Severity 3 &mdash; 1 business day</strong><p>A capability is partially impaired and a documented workaround exists.</p></div></li>
+      <li><div class="num">4</div><div class="body"><strong>Severity 4 &mdash; 2 business days</strong><p>Questions, documentation clarifications, cosmetic issues and feature requests.</p></div></li>
+    </ul>
+    <p style="font-size:.88rem;color:var(--muted);">Business hours are Monday to Friday, 09:00&ndash;18:00 US Pacific Time, excluding US public holidays. These are initial response targets, not resolution times.</p>
+
+    <div class="info-box">
+      <strong>Full support terms.</strong> Severity definitions, escalation path, the 99.9% monthly availability target, scheduled maintenance windows, service health and incident communication, and data residency are published on the <a href="https://www.intuigence.ai/fabric-workload/support">IntuigenceAI support and SLA page</a>.
+    </div>
+
+    <p class="heading-3">What to include when you contact us</p>
+    <ul>
+      <li>Your Fabric <strong>tenant ID</strong> and <strong>workspace name</strong>.</li>
+      <li>The <strong>item type and name</strong> (Data Catalog or Intelligent Board).</li>
+      <li>The <strong>correlation ID</strong> from the error banner, if one was shown.</li>
+      <li>The <strong>UTC timestamp</strong> of the failure, and expected versus observed behavior.</li>
+    </ul>
+
 
     <div style="margin-top:3rem;padding:1.5rem;background:var(--brand-light);border-radius:10px;text-align:center;">
       <p style="font-weight:600;color:var(--brand-dark);margin-bottom:.4rem;">Ready to get started?</p>
@@ -672,8 +711,8 @@
 </div>
 
 <footer style="background:#f5f5f5;border-top:1px solid var(--border);padding:2rem;text-align:center;font-size:.85rem;color:var(--muted);margin-top:2rem;">
-  IntuigenceAI Industrial Workers (preview) &middot; Published by IntuigenceAI &middot; Hosted on Microsoft Fabric<br/>
-  <span style="font-size:.78rem;">By using this workload you agree to the IntuigenceAI <a href="https://www.intuigence.ai/privacy-policy">privacy policy</a> and <a href="https://www.intuigence.ai/website-terms">terms of use</a>.</span>
+  IntuigenceAI Industrial Workers &middot; Published by IntuigenceAI &middot; Hosted on Microsoft Fabric<br/>
+  <span style="font-size:.78rem;">By using this workload you agree to the IntuigenceAI <a href="https://www.intuigence.ai/privacy-policy">privacy policy</a> and <a href="https://www.intuigence.ai/website-terms">terms of use</a>. Support: <a href="https://www.intuigence.ai/fabric-workload/support">Support &amp; SLA</a> &middot; <a href="mailto:support@intuigence.ai">support@intuigence.ai</a></span>
 </footer>
 <button class="print-btn" onclick="window.print()">Save as PDF</button>
 </body>
